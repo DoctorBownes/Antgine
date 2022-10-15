@@ -1,0 +1,2 @@
+call "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x86
+cl /c main.cpp && link /NODEFAULTLIB /ENTRY:WinMain /SUBSYSTEM:WINDOWS main.obj msvcrt.lib kernel32.lib user32.lib gdi32.lib
